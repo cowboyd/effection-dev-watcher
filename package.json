@@ -4,7 +4,8 @@
   "description": "An example of controlling processes with Effection",
   "type": "module",
   "scripts": {
-    "start": "tsx src/main.ts"
+    "start": "tsx src/main.ts",
+    "dev": "tsx watch.ts tsx src/main.ts"
   },
   "author": "",
   "license": "ISC",
