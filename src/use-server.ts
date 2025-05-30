@@ -1,6 +1,6 @@
 import { action, resource } from "effection";
 import { createServer } from "http";
-import { AddressInfo } from "net";
+import { type AddressInfo } from "net";
 
 export function useServer(message: string, port?: number) {
   return resource<AddressInfo>(function*(provide) {

@@ -1,4 +1,4 @@
-import { Operation, resource } from "effection";
+import { type Operation, resource } from "effection";
 import { ChildProcess, spawn as createChildProcess } from "child_process";
 
 export function useCommand(cmd: string, args: string[]): Operation<ChildProcess> {

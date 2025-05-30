@@ -16,6 +16,6 @@
     "typescript-language-server": "^4.3.3"
   },
   "dependencies": {
-    "effection": "^3.0.3"
+    "effection": "^3.5.0"
   }
 }
